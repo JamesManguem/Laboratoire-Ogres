@@ -32,25 +32,26 @@ namespace Cuisine
             Contexte = new BuffetBDContext();
             banqueDePlats = new string[] {
                 "Asperge", "Artichaut", "Aubergine", "Betterave", "Beurre", "Brocoli", "Cambembert", "Chataîgne", "Carotte",
-                "Datte", "Echalote", "Epinard", "Fenouil", "Fève", "Figue", "Grenade", "Groseille", "Goyave",
+                 "Echalote", "Epinard", "Fenouil", "Fève", "Figue",
                 "Haricot", "Huitre", "Kiwi", "Laitue", "Lentille", "Lait de vache", "Mais", "Mangue", "Melon",
                 "Navet", "Noix de coco", "Oeuf", "Orange", "Pain", "Patate", "Poireau", "Radis", "Raisin", "Riz",
                 "Sardine", "Saumon", "Tomate", "Yogourt" };
 
-            banqueDePlatsvegetariens = new string[] {"Asperge", "Artichaut", "Aubergine", "Betterave", "Brocoli", "Cambembert", "Chataîgne", 
-                "Carotte", "Datte", "Echalote", "Epinard", "Fenouil", "Figue", "Grande", "Groseille", "Goyave", "Haricot", "Kiwi", "Laitude", "Lentille", "Mais",
-                "Mangue", "Melon", "Navet", "Noix de como", "Orange", "Pain", "Patate", "Poireau", "Radis", "Raisin", "Riz", "Tomate"};
+            banqueDePlatsvegetariens = new string[] {"Asperge", "Artichaut", "Aubergine", "Betterave", "Brocoli", "Cambembert",
+                "Echalote", "Epinard", "Fenouil", "Figue", "Haricot", "Laitue", "Lentille", "Mais",
+                "Navet", "Pain", "Patate", "Poireau", "Radis", "Riz", "Tomate"};
 
             banqueDePlatscarnivore =  new string[]
             {
+                "Beurre", "Huitre", "Lait de Vache", "Oeuf", "Sardin", "Saumon"
 
 
             };
 
             banqueDePlatSucrerie = new string[]
             {
-
-
+                "Chataîgne", "Datte", "Grenade", "Groseille", "Goyave", "Kiwi", "Mangue", "Melon", "Noix de coco",
+                "Orange", "Raisin", "Yogur"
             };
 
 
